@@ -1,0 +1,1 @@
+export { IconNotion } from "./IconNotion";

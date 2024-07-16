@@ -1,0 +1,1 @@
+export { IconMiro } from "./IconMiro";

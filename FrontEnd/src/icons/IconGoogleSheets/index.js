@@ -1,0 +1,1 @@
+export { IconGoogleSheets } from "./IconGoogleSheets";

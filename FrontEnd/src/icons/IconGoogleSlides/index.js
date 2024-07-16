@@ -1,0 +1,1 @@
+export { IconGoogleSlides } from "./IconGoogleSlides";

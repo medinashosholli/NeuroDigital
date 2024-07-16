@@ -1,0 +1,1 @@
+export { IconJira } from "./IconJira";

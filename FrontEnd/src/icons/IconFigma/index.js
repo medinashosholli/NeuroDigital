@@ -1,0 +1,1 @@
+export { IconFigma } from "./IconFigma";

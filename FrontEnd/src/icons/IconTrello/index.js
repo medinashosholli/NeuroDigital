@@ -1,0 +1,1 @@
+export { IconTrello } from "./IconTrello";
