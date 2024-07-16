@@ -1,0 +1,22 @@
+.icon .instance-node-2 {
+  height: 16px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 16px !important;
+}
+
+.icon {
+  background-image: url(../../../static/img/icon-131.svg);
+  background-size: 100% 100%;
+  height: 16px;
+  width: 16px;
+}
+
+.icon .instance-node-3 {
+  height: 16px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 17px !important;
+}

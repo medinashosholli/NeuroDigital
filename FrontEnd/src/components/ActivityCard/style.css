@@ -1,0 +1,1134 @@
+.activity-card {
+  align-items: flex-start;
+  background-color: var(--kanban-color-base-white);
+  border-radius: 8px;
+  box-shadow: var(--sm-shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 28px;
+  position: relative;
+  width: 420px;
+}
+
+.activity-card .title {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  position: relative;
+}
+
+.activity-card .journey-mapping {
+  color: var(--x-oc-gray-8);
+  font-family: var(--text-xl-bold-font-family);
+  font-size: var(--text-xl-bold-font-size);
+  font-style: var(--text-xl-bold-font-style);
+  font-weight: var(--text-xl-bold-font-weight);
+  letter-spacing: var(--text-xl-bold-letter-spacing);
+  line-height: var(--text-xl-bold-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.activity-card .div {
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.activity-card .description {
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.activity-card .journey-mapping-2 {
+  position: relative;
+}
+
+.activity-card .icon-link-instance {
+  flex: 0 0 auto !important;
+}
+
+.activity-card .icon-instance {
+  background-image: url(../../../static/img/icon-130.svg) !important;
+  height: 20.01px !important;
+  position: relative !important;
+  width: 20.01px !important;
+}
+
+.activity-card .instance-node {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.activity-card .ellipse {
+  height: 24px;
+  object-fit: cover;
+  position: relative;
+  width: 24px;
+}
+
+.activity-card .text-wrapper-2 {
+  color: var(--x-oc-gray-6);
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.activity-card .frame {
+  align-self: stretch;
+  position: relative;
+}
+
+.activity-card .text-wrapper-3 {
+  color: var(--x-oc-gray-6);
+  flex: 1;
+  font-family: var(--text-xs-regular-font-family);
+  font-size: var(--text-xs-regular-font-size);
+  font-style: var(--text-xs-regular-font-style);
+  font-weight: var(--text-xs-regular-font-weight);
+  letter-spacing: var(--text-xs-regular-letter-spacing);
+  line-height: var(--text-xs-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.activity-card .frame-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+.activity-card .text-wrapper-4 {
+  color: var(--x-oc-gray-7);
+  flex: 1;
+  font-family: var(--text-xs-regular-font-family);
+  font-size: var(--text-xs-regular-font-size);
+  font-style: var(--text-xs-regular-font-style);
+  font-weight: var(--text-xs-regular-font-weight);
+  letter-spacing: var(--text-xs-regular-letter-spacing);
+  line-height: var(--text-xs-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.activity-card .div-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 4px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.activity-card .frame-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--x-oc-gray-0);
+  border-radius: 4px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.activity-card .link {
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.activity-card .frame-4 {
+  position: relative;
+}
+
+.activity-card .description-2 {
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.activity-card .journey-mapping-3 {
+  margin-top: -1px;
+  position: relative;
+}
+
+.activity-card .title-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  position: relative;
+}
+
+.activity-card .description-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.activity-card .p {
+  align-self: stretch;
+  margin-top: -1px;
+  position: relative;
+}
+
+.activity-card .notes {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: var(--kanban-spacing-2xs);
+  position: relative;
+  width: 100%;
+}
+
+.activity-card .link-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  padding: 8px 0px 0px;
+  position: relative;
+}
+
+.activity-card .link-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  padding: 8px 0px 0px;
+  position: relative;
+}
+
+.activity-card .team-member {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  padding: 14px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.activity-card .frame-5 {
+  align-items: center;
+  border-color: var(--x-oc-gray-3);
+  border-top-style: solid;
+  border-top-width: 1.5px;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 4px;
+  padding: 14px 0px 0px;
+  position: relative;
+}
+
+.activity-card .link-4 {
+  align-items: flex-start;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.activity-card .link-5 {
+  position: relative;
+}
+
+.activity-card .team-member-2 {
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.activity-card .frame-6 {
+  position: relative;
+}
+
+.activity-card .on {
+  border-radius: 2px;
+  gap: 10px;
+  padding: 2px 6px;
+}
+
+.activity-card .on.off {
+  gap: 6px;
+}
+
+.activity-card .off.off {
+  gap: 8px;
+}
+
+.activity-card .tag-0-on {
+  align-items: center;
+  justify-content: center;
+  padding: 8px 0px 0px;
+}
+
+.activity-card .link-on {
+  padding: 8px 0px 0px;
+}
+
+.activity-card .description-on {
+  padding: 8px 0px 0px;
+}
+
+.activity-card .notes-on {
+  padding: 8px 0px 0px;
+}
+
+.activity-card .tag-0-on.notes-off {
+  display: inline-flex;
+}
+
+.activity-card .notes-on.tag-0-off {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.activity-card .link-on.tag-0-off {
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.activity-card .link-off.tag-0-off {
+  align-self: stretch;
+  display: flex;
+  width: 100%;
+}
+
+.activity-card .checkbox-off.tag-0-on {
+  gap: 8px;
+}
+
+.activity-card .notes-on.description-on {
+  align-self: stretch;
+  display: flex;
+  width: 100%;
+}
+
+.activity-card .notes-on.link-on {
+  align-self: stretch;
+  display: flex;
+  width: 100%;
+}
+
+.activity-card .tag-0-on.checkbox-on {
+  gap: 6px;
+}
+
+.activity-card .checkbox-off.description-on {
+  gap: 8px;
+}
+
+.activity-card .description-on.tag-0-off {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.activity-card .link-on.notes-off.description-off {
+  display: inline-flex;
+}
+
+.activity-card .link-on.notes-off.tag-0-off {
+  gap: 8px;
+}
+
+.activity-card .notes-off.link-off.description-off {
+  align-items: center;
+}
+
+.activity-card .notes-on.description-off.tag-0-off {
+  gap: var(--kanban-spacing-2xs);
+}
+
+.activity-card .tag-0-on.link-off.description-off {
+  display: inline-flex;
+}
+
+.activity-card .checkbox-off.link-on.notes-off {
+  gap: 8px;
+}
+
+.activity-card .description-off.notes-off.link-off.tag-0-off {
+  gap: 4px;
+  padding: 14px 0px 0px;
+}
+
+.activity-card .link-1-off {
+  align-self: stretch;
+  display: flex;
+  width: 100%;
+}
+
+.activity-card .team-on {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  gap: 4px;
+  padding: 14px 0px 0px;
+  width: 100%;
+}
+
+.activity-card .team-off {
+  align-items: flex-start;
+  padding: 8px 0px 0px;
+}
+
+.activity-card .link-1-on.team-off {
+  display: inline-flex;
+}
+
+.activity-card .checkbox-1-off.team-off {
+  flex-direction: column;
+}
+
+.activity-card .team-off.link-1-off {
+  flex-direction: column;
+}
+
+.activity-card .team-off.description-3-off {
+  flex-direction: column;
+}
+
+.activity-card .link-1-on.team-off.tag-2-off {
+  gap: 16px;
+}
+
+.activity-card .notes-0-on.team-off.link-1-off {
+  gap: var(--kanban-spacing-2xs);
+}
+
+.activity-card .notes-0-off.team-off.description-3-off {
+  gap: 16px;
+}
+
+.activity-card .link-1-on.team-off.description-3-off {
+  gap: 16px;
+}
+
+.activity-card .checkbox-1-off.link-1-on.description-3-on {
+  flex-direction: column;
+}
+
+.activity-card .notes-0-off.team-off.tag-2-off {
+  gap: 16px;
+}
+
+.activity-card .description-3-on.notes-0-off.tag-2-on.team-off {
+  gap: 8px;
+}
+
+.activity-card .description-3-on.link-1-on.tag-2-on.team-off {
+  gap: 8px;
+}
+
+.activity-card .tag-4-on {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.activity-card .tag-4-off {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.activity-card .checkbox-2-off.tag-4-on {
+  gap: 8px;
+}
+
+.activity-card .checkbox-2-off.description-5-on {
+  gap: 8px;
+}
+
+.activity-card .tag-4-on.checkbox-2-on {
+  gap: 6px;
+}
+
+.activity-card .description-5-off.tag-4-off {
+  gap: var(--kanban-spacing-2xs);
+}
+
+.activity-card .description-5-on.tag-4-off {
+  gap: 8px;
+}
+
+.activity-card .tag-5-on {
+  color: var(--x-oc-gray-8);
+  font-style: var(--text-xl-bold-font-style);
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.activity-card .tag-5-off {
+  align-self: stretch;
+  font-style: var(--text-xs-regular-font-style);
+}
+
+.activity-card .checkbox-3-off.tag-5-on {
+  font-family: var(--text-xl-bold-font-family);
+  font-size: var(--text-xl-bold-font-size);
+  font-weight: var(--text-xl-bold-font-weight);
+  letter-spacing: var(--text-xl-bold-letter-spacing);
+  line-height: var(--text-xl-bold-line-height);
+}
+
+.activity-card .link-2-on.checkbox-3-on {
+  color: var(--x-oc-gray-8);
+  font-family: var(--text-xs-regular-font-family);
+  font-size: var(--text-xs-regular-font-size);
+  font-weight: var(--text-xs-regular-font-weight);
+  letter-spacing: var(--text-xs-regular-letter-spacing);
+  line-height: var(--text-xs-regular-line-height);
+}
+
+.activity-card .checkbox-3-off.tag-5-off {
+  color: #343a40;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.activity-card .link-2-off.tag-5-off {
+  color: #343a40;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.activity-card .tag-5-on.link-2-off {
+  font-family: var(--text-xl-bold-font-family);
+  font-size: var(--text-xl-bold-font-size);
+  font-weight: var(--text-xl-bold-font-weight);
+  letter-spacing: var(--text-xl-bold-letter-spacing);
+  line-height: var(--text-xl-bold-line-height);
+}
+
+.activity-card .checkbox-4-off {
+  gap: 8px;
+}
+
+.activity-card .checkbox-4-on {
+  gap: 6px;
+}
+
+.activity-card .description-6-off {
+  gap: var(--kanban-spacing-2xs);
+}
+
+.activity-card .tag-6-off {
+  gap: var(--kanban-spacing-2xs);
+}
+
+.activity-card .description-6-on.tag-6-on {
+  gap: 8px;
+}
+
+.activity-card .link-3-off {
+  color: #343a40;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.activity-card .checkbox-5-off {
+  color: #343a40;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.activity-card .link-3-on.checkbox-5-on {
+  color: var(--x-oc-gray-8);
+  font-family: var(--text-xs-regular-font-family);
+  font-size: var(--text-xs-regular-font-size);
+  font-style: var(--text-xs-regular-font-style);
+  font-weight: var(--text-xs-regular-font-weight);
+  letter-spacing: var(--text-xs-regular-letter-spacing);
+  line-height: var(--text-xs-regular-line-height);
+}
+
+.activity-card .checkbox-6-off {
+  flex-direction: column;
+}
+
+.activity-card .checkbox-6-on {
+  gap: 16px;
+}
+
+.activity-card .link-4-off {
+  align-self: stretch;
+  flex-direction: column;
+  width: 100%;
+}
+
+.activity-card .checkbox-7-off {
+  flex-direction: column;
+}
+
+.activity-card .team-1-off {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.activity-card .description-7-off {
+  flex-direction: column;
+}
+
+.activity-card .notes-1-off.link-4-off {
+  display: flex;
+  gap: 8px;
+}
+
+.activity-card .checkbox-7-on.link-4-off {
+  display: flex;
+}
+
+.activity-card .team-1-off.link-4-off {
+  gap: 8px;
+}
+
+.activity-card .tag-7-on.link-4-off {
+  display: flex;
+}
+
+.activity-card .notes-1-off.team-1-off {
+  gap: 8px;
+}
+
+.activity-card .checkbox-7-off.notes-1-on.link-4-on {
+  gap: var(--kanban-spacing-2xs);
+}
+
+.activity-card .link-4-on.team-1-on.tag-7-off {
+  display: inline-flex;
+  padding: 8px 0px 0px;
+}
+
+.activity-card .notes-1-on.team-1-on.link-4-off {
+  gap: var(--kanban-spacing-2xs);
+}
+
+.activity-card .link-4-on.team-1-on.checkbox-7-on {
+  display: inline-flex;
+  padding: 8px 0px 0px;
+}
+
+.activity-card .notes-1-on.link-4-on.team-1-off {
+  gap: var(--kanban-spacing-2xs);
+}
+
+.activity-card .link-4-on.team-1-on.notes-1-off {
+  display: inline-flex;
+  padding: 8px 0px 0px;
+}
+
+.activity-card .notes-1-on.link-4-on.description-7-off {
+  gap: var(--kanban-spacing-2xs);
+}
+
+.activity-card .checkbox-7-off.notes-1-on.tag-7-on {
+  align-self: stretch;
+  display: flex;
+  width: 100%;
+}
+
+.activity-card .checkbox-7-off.notes-1-on.team-1-on {
+  gap: var(--kanban-spacing-2xs);
+}
+
+.activity-card .checkbox-7-off.team-1-on.link-4-on {
+  gap: var(--kanban-spacing-2xs);
+}
+
+.activity-card .notes-1-on.team-1-on.description-7-off {
+  gap: var(--kanban-spacing-2xs);
+}
+
+.activity-card .link-4-on.team-1-on.description-7-off {
+  gap: var(--kanban-spacing-2xs);
+}
+
+.activity-card .link-4-on.team-1-on.description-7-on.checkbox-7-on {
+  gap: 16px;
+}
+
+.activity-card .checkbox-7-off.notes-1-on.team-1-on.tag-7-off {
+  display: inline-flex;
+  padding: 8px 0px 0px;
+}
+
+.activity-card .team-3-on {
+  gap: 4px;
+}
+
+.activity-card .team-3-off {
+  align-items: flex-start;
+}
+
+.activity-card .team-3-on.checkbox-9-on {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  padding: 14px 0px 0px;
+  width: 100%;
+}
+
+.activity-card .checkbox-9-off.link-6-on {
+  gap: 4px;
+}
+
+.activity-card .link-6-on.team-3-off {
+  display: inline-flex;
+  padding: 8px 0px 0px;
+}
+
+.activity-card .link-6-off.tag-8-off {
+  align-self: stretch;
+  width: 100%;
+}
+
+.activity-card .checkbox-9-on.link-6-off {
+  align-self: stretch;
+  width: 100%;
+}
+
+.activity-card .notes-2-on.link-6-off {
+  align-self: stretch;
+  display: flex;
+  padding: 14px 0px 0px;
+  width: 100%;
+}
+
+.activity-card .team-3-off.link-6-off {
+  gap: var(--kanban-spacing-2xs);
+}
+
+.activity-card .link-6-on.description-8-off {
+  gap: 4px;
+}
+
+.activity-card .team-3-on.tag-8-off {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  padding: 14px 0px 0px;
+  width: 100%;
+}
+
+.activity-card .team-3-on.notes-2-off {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  padding: 14px 0px 0px;
+  width: 100%;
+}
+
+.activity-card .team-3-on.link-6-off {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  padding: 14px 0px 0px;
+  width: 100%;
+}
+
+.activity-card .notes-2-off.team-3-off {
+  display: inline-flex;
+  padding: 8px 0px 0px;
+}
+
+.activity-card .checkbox-9-off.description-8-on.team-3-off {
+  flex-direction: column;
+}
+
+.activity-card .notes-2-off.checkbox-9-on.tag-8-off {
+  align-self: stretch;
+  width: 100%;
+}
+
+.activity-card .checkbox-9-on.team-3-off.description-8-off {
+  flex-direction: column;
+}
+
+.activity-card .description-8-on.team-3-off.link-6-off {
+  flex-direction: column;
+}
+
+.activity-card .team-3-off.checkbox-9-on.link-6-off {
+  flex-direction: column;
+}
+
+.activity-card .checkbox-9-on.link-6-on.description-8-on.team-3-off {
+  gap: 16px;
+}
+
+.activity-card .checkbox-9-off.notes-2-on.link-6-on.tag-8-on {
+  align-items: flex-start;
+  display: inline-flex;
+  padding: 8px 0px 0px;
+}
+
+.activity-card .link-6-on.tag-8-on.team-3-off.description-8-off.notes-2-on {
+  flex-direction: column;
+}
+
+.activity-card .checkbox-9-off.link-6-on.tag-8-on.team-3-off.notes-2-on {
+  flex-direction: column;
+}
+
+.activity-card .checkbox-9-off.link-6-on.tag-8-on.description-8-off.notes-2-on {
+  flex-direction: column;
+}
+
+.activity-card .title.on .div {
+  color: var(--x-oc-orange-7);
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.activity-card .title.off .div {
+  color: var(--x-oc-gray-8);
+  font-family: var(--text-xl-bold-font-family);
+  font-size: var(--text-xl-bold-font-size);
+  font-style: var(--text-xl-bold-font-style);
+  font-weight: var(--text-xl-bold-font-weight);
+  letter-spacing: var(--text-xl-bold-letter-spacing);
+  line-height: var(--text-xl-bold-line-height);
+}
+
+.activity-card .description.tag-0-on .journey-mapping-2 {
+  align-items: flex-start;
+  color: var(--x-oc-gray-8);
+  display: inline-flex;
+  flex: 0 0 auto;
+  font-style: var(--text-xl-bold-font-style);
+  gap: 16px;
+  margin-top: -1px;
+  padding: 8px 0px 0px;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.activity-card .description.link-on .journey-mapping-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  padding: 8px 0px 0px;
+}
+
+.activity-card .description.tag-0-off .journey-mapping-2 {
+  font-style: var(--text-xs-regular-font-style);
+}
+
+.activity-card .description.description-on .journey-mapping-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  margin-top: -1px;
+  padding: 8px 0px 0px;
+}
+
+.activity-card .description.link-off.tag-0-off .journey-mapping-2 {
+  color: #343a40;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.activity-card .description.checkbox-off.tag-0-on .journey-mapping-2 {
+  font-family: var(--text-xl-bold-font-family);
+  font-size: var(--text-xl-bold-font-size);
+  font-weight: var(--text-xl-bold-font-weight);
+  letter-spacing: var(--text-xl-bold-letter-spacing);
+  line-height: var(--text-xl-bold-line-height);
+}
+
+.activity-card .description.tag-0-on.link-off .journey-mapping-2 {
+  font-family: var(--text-xl-bold-font-family);
+  font-size: var(--text-xl-bold-font-size);
+  font-weight: var(--text-xl-bold-font-weight);
+  letter-spacing: var(--text-xl-bold-letter-spacing);
+  line-height: var(--text-xl-bold-line-height);
+}
+
+.activity-card .description.checkbox-off.tag-0-off .journey-mapping-2 {
+  color: #343a40;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.activity-card .description.tag-0-on.description-off .journey-mapping-2 {
+  font-family: var(--text-xl-bold-font-family);
+  font-size: var(--text-xl-bold-font-size);
+  font-weight: var(--text-xl-bold-font-weight);
+  letter-spacing: var(--text-xl-bold-letter-spacing);
+  line-height: var(--text-xl-bold-line-height);
+}
+
+.activity-card .description.description-off.tag-0-off .journey-mapping-2 {
+  color: #343a40;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.activity-card .description.description-on.tag-0-off .journey-mapping-2 {
+  align-self: stretch;
+}
+
+.activity-card .description.link-on.description-on.checkbox-on .journey-mapping-2 {
+  color: var(--x-oc-gray-8);
+  font-family: var(--text-xs-regular-font-family);
+  font-size: var(--text-xs-regular-font-size);
+  font-weight: var(--text-xs-regular-font-weight);
+  letter-spacing: var(--text-xs-regular-letter-spacing);
+  line-height: var(--text-xs-regular-line-height);
+}
+
+.activity-card .description.description-off.link-off.tag-0-off .journey-mapping-2 {
+  align-items: center;
+  border-color: var(--x-oc-gray-3);
+  border-top-style: solid;
+  border-top-width: 1.5px;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 4px;
+  padding: 14px 0px 0px;
+}
+
+.activity-card .description.description-off .frame {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 4px 0px 0px;
+  width: 100%;
+}
+
+.activity-card .description.description-on .frame {
+  color: #343a40;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-top: -1px;
+}
+
+.activity-card .description.description-off .frame-2 {
+  background-color: var(--x-oc-gray-0);
+  border-radius: 4px;
+  gap: 10px;
+  padding: 8px;
+}
+
+.activity-card .description.description-on .frame-2 {
+  flex-direction: column;
+  gap: var(--kanban-spacing-2xs);
+}
+
+.activity-card .link.team-on .frame-4 {
+  align-items: center;
+  border-color: var(--x-oc-gray-3);
+  border-top-style: solid;
+  border-top-width: 1.5px;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 4px;
+  padding: 14px 0px 0px;
+}
+
+.activity-card .link.team-off .frame-4 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  padding: 8px 0px 0px;
+}
+
+.activity-card .link.description-3-on.tag-2-on .frame-4 {
+  align-self: stretch;
+  color: #343a40;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-top: -1px;
+}
+
+.activity-card .link-4.link-4-off .link-5 {
+  align-self: stretch;
+  color: #343a40;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-top: -1px;
+}
+
+.activity-card .link-4.team-1-on .link-5 {
+  color: #343a40;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.activity-card .link-4.checkbox-7-off .link-5 {
+  color: #343a40;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.activity-card .link-4.team-1-off .link-5 {
+  align-self: stretch;
+  margin-top: -1px;
+}
+
+.activity-card .link-4.link-4-on.team-1-on .link-5 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  padding: 8px 0px 0px;
+}
+
+.activity-card .link-4.checkbox-7-on.link-4-on.team-1-off .link-5 {
+  color: var(--x-oc-gray-8);
+  font-family: var(--text-xs-regular-font-family);
+  font-size: var(--text-xs-regular-font-size);
+  font-style: var(--text-xs-regular-font-style);
+  font-weight: var(--text-xs-regular-font-weight);
+  letter-spacing: var(--text-xs-regular-letter-spacing);
+  line-height: var(--text-xs-regular-line-height);
+}
+
+.activity-card .team-member-2.team-3-off .frame-6 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  padding: 8px 0px 0px;
+}
+
+.activity-card .team-member-2.checkbox-9-off.link-6-off .frame-6 {
+  border-color: var(--x-oc-gray-3);
+  border-top-style: solid;
+  border-top-width: 1.5px;
+  flex-grow: 1;
+}
+
+.activity-card .team-member-2.team-3-on.checkbox-9-on .frame-6 {
+  align-items: center;
+  border-color: var(--x-oc-gray-3);
+  border-top-style: solid;
+  border-top-width: 1.5px;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 4px;
+  padding: 14px 0px 0px;
+}
+
+.activity-card .team-member-2.team-3-on.tag-8-off .frame-6 {
+  align-items: center;
+  border-color: var(--x-oc-gray-3);
+  border-top-style: solid;
+  border-top-width: 1.5px;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 4px;
+  padding: 14px 0px 0px;
+}
+
+.activity-card .team-member-2.team-3-on.notes-2-off .frame-6 {
+  align-items: center;
+  border-color: var(--x-oc-gray-3);
+  border-top-style: solid;
+  border-top-width: 1.5px;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 4px;
+  padding: 14px 0px 0px;
+}
+
+.activity-card .team-member-2.team-3-on.link-6-off .frame-6 {
+  align-items: center;
+  border-color: var(--x-oc-gray-3);
+  border-top-style: solid;
+  border-top-width: 1.5px;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 4px;
+  padding: 14px 0px 0px;
+}
+
+.activity-card .team-member-2.checkbox-9-off.notes-2-on.link-6-on.tag-8-on .frame-6 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  padding: 8px 0px 0px;
+}

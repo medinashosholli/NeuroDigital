@@ -1,0 +1,10 @@
+
+.PatientHistoryHolder{
+    position: absolute;
+    top: 586px;
+    right: 97px;
+    height: 962px;
+    width: 355px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }

@@ -1,0 +1,25 @@
+.pill {
+    align-items: center;
+    background: #2a1a37;
+    border-radius: 20px;
+    display: flex;
+    gap: 10px;
+    height: 33px;
+    justify-content: center;
+    padding: 6px 16px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+.text-wrapper-11 {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 19.6px;
+    margin-top: -0.5px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }

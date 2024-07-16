@@ -1,0 +1,17 @@
+.checkbox {
+  background-color: var(--kanban-color-base-white);
+  border: 2px solid;
+  border-color: var(--x-oc-gray-8);
+  border-radius: 6px;
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.checkbox .checked-true {
+  height: 20px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 20px !important;
+}
